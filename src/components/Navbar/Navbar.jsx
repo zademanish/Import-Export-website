@@ -40,7 +40,7 @@ const Navbar = () => {
       >
         <div className="flex items-center">
        {/* <img src={logo} alt="logo" className="w-20 h-16"/> */}
-          <h1 className="font-bold text-2xl">Import Export</h1>
+          <h1 className="font-bold text-3xl">Agro Export World</h1>
         </div>
         {/* Menu section */}
         <div className="hidden lg:block">

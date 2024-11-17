@@ -1,11 +1,12 @@
 import React from "react";
 import BannerPng from "../../assets/banner.png";
+import FarmerImg from "../../assets/Farmer.png"
 import { motion } from "framer-motion";
 
 const Banner2 = () => {
   return (
     <section>
-      <div className="container py-14 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-8 space-y-6 md:space-y-0">
+      <div className="container py-14 md:py-10 grid grid-cols-1 md:grid-cols-2 gap-8 space-y-6 md:space-y-0">
         {/* Banner Text */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -14,16 +15,18 @@ const Banner2 = () => {
         >
           <div className="text-center md:text-left space-y-4 lg:max-w-[450px]">
             <h1 className="text-4xl font-bold !leading-snug">
-              Join Our Community to Start your Journey
+              Who We Are.?
             </h1>
             <p className="text-dark2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae iusto minima ad ut id eos accusantium aut, aperiam quis
-              incidunt!
+Agro Export World is an agricultural export company committed to offering fair prices to farmers, specifically for their Red Chilli harvests. We work closely with farmers to help them grow and sell their produce at competitive prices, ensuring that their efforts are valued globally.
+
             </p>
+            <p className="text-dark2">
+        Our goal is to create lasting relationships with farmers, deliver premium Red Chilli products, and build sustainable agricultural practices that benefit everyone involved.
+        </p>
             <a
               href="https://chat.whatsapp.com/FQSKgJ5f1eIAhlyF5sVym0"
-              className="primary-btn !mt-8"
+              className="primary-btn !mt-6"
             >
               Join Now
             </a>
@@ -34,9 +37,9 @@ const Banner2 = () => {
           <motion.img
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            src={BannerPng}
-            alt=""
-            className="w-[350px] md:max-w-[450px] object-cover drop-shadow"
+            src={FarmerImg}
+            alt="banner img"
+            className="w-[350px] h-96 rounded-md md:max-w-[450px] object-cover drop-shadow"
           />
         </div>
       </div>

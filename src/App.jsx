@@ -4,7 +4,9 @@ import Services from "./components/Services/Services";
 import Banner from "./components/Banner/Banner";
 import Subscribe from "./components/Subscribe/Subscribe";
 import Banner2 from "./components/Banner/Banner2";
-import Footer from "./components/Footer/Footer";
+import Banner3 from "./components/Banner/Banner3";
+import FeaturesPage from "./components/FeaturePage/FeaturesPage";
+import Footers from "./components/Footer/Footers";
 
 const App = () => {
   return (
@@ -14,7 +16,9 @@ const App = () => {
       <Banner />
       <Subscribe />
       <Banner2 />
-      <Footer />
+      <Banner3/>
+      <FeaturesPage/>
+      <Footers />
     </main>
   );
 };
