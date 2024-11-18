@@ -4,14 +4,14 @@ import redChilli from "../../assets/redchilli.png"
 const FeaturesPage = () => {
   return (
     <div className='bg-[#010428]'>
-      <h1 className='text-center text-4xl text-white font-bold pt-9 md:text-6xl'>Our Red Chilli</h1>
+      <h1 className='text-center text-4xl text-white font-bold pt-9 md:text-6xl'>Our <span className='text-red-700'>Red Chilli</span></h1>
     <div className="flex flex-col items-center justify-start min-h-fit  py-8 md:flex-row">
       {/* Heading */}
     
 
       {/* Feature Cards */}
       <div className="space-y-6 w-full max-w-sm md:mx-8 md:flex items-center justify-center gap-8 md:max-w-full">
-        <h2 className='text-white text-2xl mx-2 md:max-w-md md:text-6xl font-serif'>We specialize in exporting a wide range of Red Chilli varieties, including
+        <h2 className='text-white text-2xl mx-2 md:max-w-md md:text-6xl font-serif'>We specialize in exporting a wide range of <span className='text-red-700'>Red Chilli</span> varieties, including
 </h2>
         {/* Feature 1 */}
        <div>

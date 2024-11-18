@@ -7,11 +7,10 @@ import Banner2 from "./components/Banner/Banner2";
 import Banner3 from "./components/Banner/Banner3";
 import FeaturesPage from "./components/FeaturePage/FeaturesPage";
 import Footers from "./components/Footer/Footers";
-
 const App = () => {
   return (
-    <main className="overflow-x-hidden bg-white text-dark">
-      <Hero />
+    <main id="mainBody" className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 overflow-x-hidden bg-white text-dark">
+      <Hero/>
       <Services />
       <Banner />
       <Subscribe />

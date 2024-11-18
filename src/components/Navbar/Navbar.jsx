@@ -1,7 +1,8 @@
 import React from "react";
 import { IoMdMenu } from "react-icons/io";
 import { motion } from "framer-motion";
-import logo from '../../assets/vege.png'
+import logo from "../../assets/logo3.png";
+
 const NavbarMenu = [
   {
     id: 1,
@@ -36,12 +37,17 @@ const Navbar = () => {
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
-        className="container py-10 flex justify-between items-center"
+        className="container   flex justify-between md:py-0"
       >
-        <div className="flex items-center">
-       {/* <img src={logo} alt="logo" className="w-20 h-16"/> */}
-          <h1 className="font-bold text-3xl">Agro Export World</h1>
-        </div>
+       <div className="relative w-40 h-40  ">
+
+          <img
+            src={logo}
+            className=" top-[-26px] left-12 scale-150 absolute w-full h-full object-cover z-999"
+            alt="logo"
+          />
+       </div>
+     <div className="mt-8">
         {/* Menu section */}
         <div className="hidden lg:block">
           <ul className="flex items-center gap-3">
@@ -60,9 +66,9 @@ const Navbar = () => {
           </ul>
         </div>
         {/* Mobile Hamburger menu section */}
-        <div className="lg:hidden">
+        <div className="lg:hidden ">
           <IoMdMenu className="text-4xl" />
-          
+        </div>
         </div>
       </motion.div>
     </nav>

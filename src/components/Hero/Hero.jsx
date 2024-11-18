@@ -27,11 +27,11 @@ export const FadeUp = (delay) => {
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 overflow-hidden relative">
+    <section className=" overflow-hidden relative">
       <Navbar />
       <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
         {/* Brand Info */}
-        <div className="flex flex-col justify-center py-14 md:py-0 relative z-20">
+        <div className="flex flex-col justify-center py-14 md:py-0 relative ">
           <div className="text-center md:text-left space-y-10 lg:max-w-[400px]">
             <motion.h1
               variants={FadeUp(0.6)}
@@ -41,9 +41,9 @@ const Hero = () => {
             >
               Welcome to
 {" "}
-              <span className="text-secondary">Agro Export World
+              <span className="text-[#cad2c5]">Agro Export World
               </span> 
-              <div className="text-lg font-medium"> Empowering Farmers with Fair Value for Red Chilli </div>
+              <div className="text-sm font-medium text-[#cad2c5]"> Empowering Farmers with Fair Value for Red Chilli </div>
             </motion.h1>
             <motion.div
               variants={FadeUp(0.8)}
@@ -51,7 +51,7 @@ const Hero = () => {
               animate="animate"
               className="flex justify-center md:justify-start"
             >
-              <button className="primary-btn flex items-center gap-2 group">
+              <button className="secondary-btn flex items-center gap-2 group">
                 Get Started
                 <IoIosArrowRoundForward className="text-xl group-hover:translate-x-2 group-hover:-rotate-45 duration-300" />
               </button>

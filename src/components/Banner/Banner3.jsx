@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Banner3 = () => {
   return (
-    <section className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+    <section className="bg-white">
       <div className="container py-14 md:grid grid-cols-1 md:grid-cols-2 gap-8 space-y-6 md:space-y-0 ">
         {/* Banner Text */}
         <motion.div
@@ -33,7 +33,7 @@ const Banner3 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             src={Rupees}
             alt="banner img"
-            className="w-[350px] md:max-w-[450px] object-cover drop-shadow"
+            className="w-[350px] md:max-w-[450px] h-72 object-contain drop-shadow"
           />
         </div>
         <div>
@@ -45,7 +45,7 @@ const Banner3 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             src={farmerTrust}
             alt="banner img"
-            className="w-[350px] md:max-w-[450px] object-cover drop-shadow"
+            className="w-[350px] md:max-w-[350px] h-[26rem] object-cover drop-shadow"
           />
         </div>
         <div className="text-center md:text-left space-y-4 lg:max-w-[450px]">

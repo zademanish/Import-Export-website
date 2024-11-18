@@ -17,16 +17,16 @@ const Banner2 = () => {
             <h1 className="text-4xl font-bold !leading-snug">
               Who We Are.?
             </h1>
-            <p className="text-dark2">
+            <p className="text-white">
 Agro Export World is an agricultural export company committed to offering fair prices to farmers, specifically for their Red Chilli harvests. We work closely with farmers to help them grow and sell their produce at competitive prices, ensuring that their efforts are valued globally.
 
             </p>
-            <p className="text-dark2">
+            <p className="text-white">
         Our goal is to create lasting relationships with farmers, deliver premium Red Chilli products, and build sustainable agricultural practices that benefit everyone involved.
         </p>
             <a
               href="https://chat.whatsapp.com/FQSKgJ5f1eIAhlyF5sVym0"
-              className="primary-btn !mt-6"
+              className="secondary-btn !mt-6"
             >
               Join Now
             </a>

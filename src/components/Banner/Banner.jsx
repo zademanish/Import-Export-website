@@ -8,8 +8,9 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <section className="bg-gradient-to-r from-red-500 to-green-500">
+    <section className="">
       <div className="container py-14 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-8 space-y-6 md:space-y-0">
+
         {/* Banner Image */}
         <div className="flex justify-center items-center">
           <motion.img

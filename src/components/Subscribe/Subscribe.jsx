@@ -35,7 +35,7 @@ const Subscribe = () => {
             </p>
             <a
               href=""
-              className="primary-btn !mt-8 inline-flex items-center gap-4 group"
+              className="secondary-btn !mt-8 inline-flex items-center gap-4 group"
             >
               Subscribe Now
               <FaBell className="group-hover:animate-bounce group-hover:text-lg duration-200" />

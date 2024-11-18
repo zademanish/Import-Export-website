@@ -2,14 +2,14 @@ import React from 'react';
 
 function Footers() {
   return (
-    <section className="contact py-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" id="contact">
+    <section className="contact py-20  bg-gradient-to-bl from-[#30196B] " id="contact">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="title text-3xl font-bold text-center mb-10 text-[#1e3551]">Contact Me</h2>
+        <h2 className="title text-3xl font-bold text-center mb-10 text-black">Contact Me</h2>
         <div className="contact-content grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Left Column */}
           <div className="column left space-y-6">
-            <div className="text text-xl font-semibold text-[#1e3551]">Get in Touch</div>
-            <p className="text-gray-600">
+            <div className="text text-xl font-semibold text-black">Get in Touch</div>
+            <p className="text-white">
             Are you a Red Chilli farmer looking for a trusted partner to ensure fair value for your produce? Or a buyer seeking premium Red Chilli for your market? Partner with Agro Export World today!
 
             </p>
@@ -17,18 +17,18 @@ function Footers() {
               <div className="row flex items-center space-x-4">
                 <i className="fa-solid fa-user-large text-xl text-[#1e3551]"></i>
                 <div className="info">
-                  <div className="head font-semibold">Name</div>
-                  <div className="sub-title text-gray-500">Ashish Zade</div>
+                  <div className="head font-semibold text-black">Name</div>
+                  <div className="sub-title text-white">Ashish Zade</div>
                 </div>
               </div>
 
               <div className="row flex items-center space-x-4">
                 <i className="fa-solid fa-location-dot text-xl text-[#1e3551]"></i>
                 <div className="info">
-                  <div className="head font-semibold">Address</div>
-                  <div className="sub-title text-gray-500">
+                  <div className="head font-semibold  text-black">Address</div>
+                  <div className="sub-title text-white">
                     At-Tejapur, Post-Adegaon Tah-Wani <br />
-                    Dist-Yavatmal Maharashtra-411041
+                    Dist-Yavatmal Maharashtra-445304
                   </div>
                 </div>
               </div>
@@ -36,18 +36,18 @@ function Footers() {
               <div className="row flex items-center space-x-4">
                 <i className="fa-solid fa-envelope text-xl text-[#1e3551]"></i>
                 <div className="info">
-                  <div className="head font-semibold">Email</div>
-                  <div className="sub-title text-gray-500">
-                    <a href="mailto:manishzademz7@gmail.com" className="text-decoration-none text-[#1e3551]">ashishzade@gmail.com</a>
+                  <div className="head font-semibold text-black">Email</div>
+                  <div className="sub-title ">
+                    <a href="mailto:ashishzade@gmail.com" className="text-decoration-none text-white">ashishzade@gmail.com</a>
                   </div>
                 </div>
               </div>
 
               <div className="row flex items-center space-x-4">
-                <i className="bi bi-translate text-xl text-[#1e3551]"></i>
+                <i className="bi bi-translate text-xl text-white"></i>
                 <div className="info">
-                  <div className="head font-semibold">Language Known</div>
-                  <div className="sub-title text-gray-500">Hindi, English, Marathi</div>
+                  <div className="head font-semibold text-black">Language Known</div>
+                  <div className="sub-title text-white">Hindi, English, Marathi</div>
                 </div>
               </div>
             </div>
@@ -63,7 +63,7 @@ function Footers() {
 
           {/* Right Column */}
           <div className="column right space-y-6">
-            <div className="text text-xl font-semibold text-[#1e3551]">Message me</div>
+            <div className="text text-xl font-semibold text-black">Message me</div>
             <form action="#" className="space-y-4">
               <div className="fields grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="field">
@@ -80,7 +80,7 @@ function Footers() {
                 <textarea cols="30" rows="5" placeholder="Message.." required className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1e3551]"></textarea>
               </div>
               <div className="button-area">
-                <button type="submit" className="bg-[#1e3551] text-white px-6 py-2 rounded hover:bg-[#ff4efc] transition duration-300">Send message</button>
+                <button type="submit" className="secondary-btn text-white px-6 py-2 rounded hover:bg-[#ff4efc] transition duration-300">Send message</button>
               </div>
             </form>
           </div>
