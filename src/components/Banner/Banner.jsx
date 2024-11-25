@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <section className="">
+    <section  className="bg-slate-600">
       <div className="container py-14 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-8 space-y-6 md:space-y-0">
 
         {/* Banner Image */}
@@ -20,6 +20,7 @@ const Banner = () => {
             transition={{ duration: 0.5, ease: "easeInOut" }}
             src={BannerPng}
             alt=""
+            
             className="w-[350px] md:w-[60vw] rounded-lg md:h-[50vh] md:max-w-[450px] object-cover drop-shadow"
           />
         </div>
@@ -31,7 +32,7 @@ const Banner = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className="text-3xl md:text-4xl font-bold !leading-snug"
+              className="text-3xl md:text-4xl font-bold !leading-snug text-white"
             >
               The World's Leading Online learning Platform
             </motion.h1>

@@ -27,7 +27,7 @@ export const FadeUp = (delay) => {
 
 const Hero = () => {
   return (
-    <section className=" overflow-hidden relative">
+    <section className=" overflow-hidden relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
       <Navbar />
       <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
         {/* Brand Info */}
@@ -38,10 +38,11 @@ const Hero = () => {
               initial="initial"
               animate="animate"
               className="text-3xl lg:text-5xl font-bold !leading-snug"
+            
             >
               Welcome to
 {" "}
-              <span className="text-[#cad2c5]">Agro Export World
+              <span className="text-[#cad2c5]" >Agro Export World
               </span> 
               <div className="text-sm font-medium text-[#cad2c5]"> Empowering Farmers with Fair Value for Red Chilli </div>
             </motion.h1>

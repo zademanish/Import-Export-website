@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Banner2 = () => {
   return (
-    <section>
+    <section  className="bg-slate-600"id="about">
       <div className="container py-14 md:py-10 grid grid-cols-1 md:grid-cols-2 gap-8 space-y-6 md:space-y-0">
         {/* Banner Text */}
         <motion.div
@@ -14,14 +14,14 @@ const Banner2 = () => {
           className="flex flex-col justify-center"
         >
           <div className="text-center md:text-left space-y-4 lg:max-w-[450px]">
-            <h1 className="text-4xl font-bold !leading-snug">
+            <h1 className="text-4xl font-bold !leading-snug text-white">
               Who We Are.?
             </h1>
-            <p className="text-white">
+            <p className="text-black">
 Agro Export World is an agricultural export company committed to offering fair prices to farmers, specifically for their Red Chilli harvests. We work closely with farmers to help them grow and sell their produce at competitive prices, ensuring that their efforts are valued globally.
 
             </p>
-            <p className="text-white">
+            <p className="text-black">
         Our goal is to create lasting relationships with farmers, deliver premium Red Chilli products, and build sustainable agricultural practices that benefit everyone involved.
         </p>
             <a

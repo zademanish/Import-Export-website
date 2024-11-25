@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footers() {
   return (
-    <section className="contact py-20  bg-gradient-to-bl from-[#30196B] " id="contact">
+    <section className="contact py-5 bg-slate-600" id="contact">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="title text-3xl font-bold text-center mb-10 text-black">Contact Me</h2>
         <div className="contact-content grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -67,14 +67,14 @@ function Footers() {
             <form action="#" className="space-y-4">
               <div className="fields grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="field">
-                  <input type="text" placeholder="Your Name" required className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1e3551]" />
+                  <input type="text" placeholder="Your Name" required className="w-full px-4 py-2 border border-gray-300   rounded focus:outline-none focus:ring-2 focus:ring-[#1e3551]" />
                 </div>
                 <div className="field">
                   <input type="email" placeholder="Your Email" required className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1e3551]" />
                 </div>
               </div>
               <div className="field">
-                <input type="text" placeholder="Subject" required className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1e3551]" />
+                <input type="text" placeholder="Subject" required className="w-full px-4 py-2 border border-gray-300  rounded focus:outline-none focus:ring-2 focus:ring-[#1e3551]" />
               </div>
               <div className="field">
                 <textarea cols="30" rows="5" placeholder="Message.." required className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1e3551]"></textarea>

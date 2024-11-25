@@ -17,3 +17,13 @@
   }
 }
 
+#bds{
+  -webkit-box-shadow:0px 0px 105px 0px rgba(45,255,196,0.9);
+  -moz-box-shadow: 0px 0px 105px 0px rgba(45,255,196,0.9);
+  box-shadow: 0px 0px 105px 0px rgba(45,255,196,0.9);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
